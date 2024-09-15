@@ -1,0 +1,5 @@
+  有时跑不起来是因为模拟增益(analog_gain)值给太小了，analog_gain值最小为64
+
+  跑launch的时候才会读取camera_params.yaml中的参数，直接run节点不会读取该文件中的参数
+
+  调参时可以使用rqt中的Plugins->Configuration->Dynamic Reconfigure中的工具来便捷调节相机的曝光及增益，调节后的参数不会自动保存，可用合适的参数来修改yaml文件中的值。
