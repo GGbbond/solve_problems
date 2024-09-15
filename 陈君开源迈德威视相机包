@@ -3,3 +3,5 @@
   跑launch的时候才会读取camera_params.yaml中的参数，直接run节点不会读取该文件中的参数
 
   调参时可以使用rqt中的Plugins->Configuration->Dynamic Reconfigure中的工具来便捷调节相机的曝光及增益，调节后的参数不会自动保存，可用合适的参数来修改yaml文件中的值。
+
+  src/mv_camera_node.cpp文件中第64行左右CameraSetAeState(h_camera_, flase),这里的第二个参数设置为flase关闭自动曝光，设置为true开启自动曝光。
