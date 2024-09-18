@@ -1,0 +1,5 @@
+报错ceres中的abls::log找不到
+
+重新安装低版本的ceres库
+
+可以从这个链接中获取：https://github.com/GGbbond/Ceres.git
