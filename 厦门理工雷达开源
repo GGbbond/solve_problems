@@ -1,0 +1,11 @@
+为防止要装的环境与本机现有环境冲突，建议使用虚拟python环境
+
+在这里我们使用miniconda(anconda的一个精简版)来创建虚拟python环境
+
+conda用法：
+
+1.创建环境
+
+'''
+conda create -n ENV_NAME python=3.9
+'''
